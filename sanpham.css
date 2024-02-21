@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.product{
+    padding: 20px;
+    text-align: center;
+}
